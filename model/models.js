@@ -16,7 +16,7 @@ const contact = Schema({
     default: false,
   },
 })
-const Contact = model('Lerar_Node/contacts', contact)
+const Contact = model('contacts', contact)
 
 module.exports = {
   Contact,
